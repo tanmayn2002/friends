@@ -1,0 +1,10 @@
+source opt/ros/noetic/setup.bash
+rosrun rospy_tutorials add_two_ints_server
+//new tab
+source opt/ros/noetic/setup.bash
+rosservice list
+rosservice call <filename>
+//see arguments reqd for any service
+rossrv show <filename>
+//draw sq
+rosrun turtlesim draw_square
